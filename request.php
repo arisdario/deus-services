@@ -18,7 +18,7 @@ $fields = array(
     'client-id' => $client,
     'method' => $method, // trebuie schimbat la metoda "all-price" daca se doreste all-price
     'code' => $code, //se schimba cu 'nb' => $nb in caz ca se foloseste metoda "all-price"
-    'key' => $hash_bycode // se schimba cu in caz ca se foloseste metoda "all-price"
+    'key' => $hash_bycode // se schimba cu $hash_allprice in caz ca se foloseste metoda "all-price"
 );
 
 
