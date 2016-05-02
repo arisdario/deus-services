@@ -3,7 +3,7 @@
 	class DeusApi {
 
         private $apiUrl 		= 'http://api.url'; //Don't forget to change the url
-        private $fileName 	= 'stock.xml'; //Don't forget to change the path where you want to save the file !
+        private $fileName 	= 'file_data.xml'; //Don't forget to change the path where you want to save the file !
 
         /**
          * @param $username
