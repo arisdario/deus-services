@@ -21,7 +21,7 @@
          * @param null $codes
          * @return string
          */
-        public function generateStock($username, $password, $method = 'all', $codes = null) {
+        public function retrieveData($username, $password, $method = 'all', $codes = null) {
 
             $key 			= $this->generateKey($username, $password);
 
