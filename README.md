@@ -22,7 +22,7 @@ Work only with CURL POST
 	$method = 'bycode';
 	$codes = '12345,12346,12347';
 
-	$deus->generateStock($username, $password, $method, $codes);
+	$deus->retrieveData($username, $password, $method, $codes);
 	//Retrun file name
 	
 	
@@ -32,5 +32,5 @@ Work only with CURL POST
 	$username = 'username';
 	$password = 'password';
 
-	$deus->generateStock($username, $password);
+	$deus->retrieveData($username, $password);
 	//Retrun file name
