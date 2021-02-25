@@ -3,7 +3,7 @@ deus-services
 ClientID = Key sensitive
 Key      = Key sensitive
 
-METHOD allowd = POST
+METHOD allowed = POST
 
 
 ==== API V2 USAGE ====
